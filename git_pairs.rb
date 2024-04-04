@@ -1,9 +1,10 @@
-class GitPairs
+class Beer
 
-  attr_reader :name
+  attr_reader :style
 
-  def initialize(name)
-    @name = name
+  def initialize(lager, ipa)
+    @lager = lager
+    @ipa = ipa
   end
 
 end
