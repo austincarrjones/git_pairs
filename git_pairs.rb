@@ -1,10 +1,10 @@
-class Gittyup
+class Beer
 
-  attr_reader :name
+  attr_reader :style
 
-  def initialize(size, age)
-    @size = size
-    @age = age
+  def initialize(lager, ipa)
+    @lager = lager
+    @ipa = ipa
   end
 
 end
